@@ -4,7 +4,7 @@
   "description": "A task for recipe using MVC and database connectivity",
   "license": "ISC",
   "author": "Jascar Benish",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": " node index.js",
