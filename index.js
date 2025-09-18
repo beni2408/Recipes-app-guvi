@@ -1,11 +1,14 @@
 import express from "express";
-import { connect } from "mongoose";
+
 import connectDB from "./src/config/db.js";
+import recipeRouter from "./src/routes/recipeRoutes.js";
 
 const app = express();
 
-const PORT = 8080;
+const PORT = 5080;
 app.use(express.json());
+
+app.use("/api/recipes", recipeRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
