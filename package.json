@@ -1,0 +1,20 @@
+{
+  "name": "guvi_recipe_mvc_database_project",
+  "version": "1.0.0",
+  "description": "A task for recipe using MVC and database connectivity",
+  "license": "ISC",
+  "author": "Jascar Benish",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": " node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
